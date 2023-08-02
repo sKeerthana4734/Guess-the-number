@@ -3,7 +3,7 @@
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
 let highScore = 0;
-console.log("Secret Number: ", secretNumber);
+// console.log("Secret Number: ", secretNumber);
 
 // Function to display message to user.
 function displayMessage(message) {
@@ -54,7 +54,7 @@ document.querySelector('.check').addEventListener('click', function () {
 // Actions for 'Again' buttton - Resetting the game
 document.querySelector('.again').addEventListener('click', function () {
     secretNumber = Math.trunc(Math.random() * 20) + 1;
-    console.log("Secret Number:", secretNumber);
+    // console.log("Secret Number:", secretNumber);
     score = 20;
     displayMessage("Start guessing...");
     displayScore(score);
